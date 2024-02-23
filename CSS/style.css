@@ -84,6 +84,10 @@ body {
     background-color: rgba(255, 255, 255, 1);
 }
 
+.grey-bg {
+    background-color: rgba(246, 246, 246, 1);
+}
+
 .dark-bg {
     background-color: rgba(0, 0, 0, 1);
 }
@@ -183,30 +187,20 @@ header {
 
 /* Multi-Content Section */
 
-.grey-section {
-    background-color: rgba(211, 211, 211, 1);
-}
-
-.img-box-70 {
+.section-box-70 {
     width: 70%;
 }
 
-.img-box-30 {
+.section-box-30 {
     width: 30%;
 }
 
-.align-right {
-    display: flex;
-    justify-content: end;
-}
-
-.align-left {
-    display: flex;
-    justify-content: flex-start;
+.section-img {
+    width: 100%;
 }
 
 .section-title {
-    padding: 10px;
+    padding: 25px 10px 10px 10px;
 }
 
 .section-paragraph {
@@ -214,21 +208,12 @@ header {
     padding: 10px;
 }
 
-
 .pink {
     background-color: rgba(255, 192, 203, 1);
     flex-grow: 1;
 
     /* Debug */
     min-height: 300px;
-}
-
-.lightblue {
-    background-color: rgba(30, 144, 255, 1);
-    flex-grow: 2;
-
-    /* Debug */
-    height: 300px;
 }
 
 /* Mono-Content Section */
