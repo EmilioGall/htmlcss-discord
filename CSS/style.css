@@ -6,6 +6,14 @@
 
 }
 
+img {
+    display: inline-block;
+    max-width: 100%;
+
+    /* Debug */
+    background-color: lightcoral;
+}
+
 /* COMMON */
 
 body {
@@ -173,26 +181,46 @@ header {
     line-height: 2.8rem;
 }
 
-.hero-tag-download {
-
-}
-
-.hero-tag-open {
-
-}
-
 /* Multi-Content Section */
 
 .grey-section {
     background-color: rgba(211, 211, 211, 1);
 }
 
+.img-box-70 {
+    width: 70%;
+}
+
+.img-box-30 {
+    width: 30%;
+}
+
+.align-right {
+    display: flex;
+    justify-content: end;
+}
+
+.align-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-title {
+    padding: 10px;
+}
+
+.section-paragraph {
+    display: inline-block;
+    padding: 10px;
+}
+
+
 .pink {
     background-color: rgba(255, 192, 203, 1);
     flex-grow: 1;
 
     /* Debug */
-    height: 300px;
+    min-height: 300px;
 }
 
 .lightblue {
