@@ -1,0 +1,152 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* COMMON */
+
+.container {
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.padding-small{
+    padding: 15px 0px;
+}
+
+.padding-normal {
+    padding: 30px 0px;
+}
+
+.bar {
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+/* HEADER */
+
+header {
+
+    /* Debug */
+    background-color: rgba(173, 216, 230, 1);
+}
+
+.logo {
+    width: 25%;
+    background-color: rgba(218, 165, 32, 1);
+}
+
+.nav {
+    width: 50%;
+    text-align: center;
+    background-color: rgba(218, 165, 32, 1);
+}
+
+.login {
+    width: 25%;
+    text-align: end;
+    background-color: rgba(218, 165, 32, 1);
+}
+
+/* MAIN */
+
+/* Banner Section */
+
+.banner {
+    padding: 40px;
+    background-color: rgba(0, 0, 139, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    width: 60%;
+    background-color: rgba(238, 130, 238, 1);
+
+    /* Debug */
+    height: 300px;
+}
+
+/* Multi-Content Section */
+
+.grey-section {
+    background-color: rgba(211, 211, 211, 1);
+}
+
+.pink {
+    background-color: rgba(255, 192, 203, 1);
+    flex-grow: 1;
+
+    /* Debug */
+    height: 300px;
+}
+
+.lightblue {
+    background-color: rgba(30, 144, 255, 1);
+    flex-grow: 2;
+
+    /* Debug */
+    height: 300px;
+}
+
+/* Mono-Content Section */
+
+.green {
+    background-color: rgba(34, 139, 34, 1);
+    flex-grow: 1;
+
+    /* Debug */
+    height: 500px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgba(35, 39, 42, 1);
+}
+
+/* Menu Section */
+
+.menu {
+    padding: 10px 0px 30px;
+}
+
+.salmon {
+    background-color: rgba(240, 128, 128, 1);
+    flex-grow: 2;
+    border-color: white;
+
+    /* Debug */
+    height: 300px;
+}
+
+.seagreen {
+    background-color: rgba(32, 178, 170, 1);
+    flex-grow: 1;
+    border-color: white;
+
+    /* Debug */
+    height: 300px;
+}
+
+/* SignUp Section */
+
+.white-line {
+    color: white;
+}
+
+.login-menu {
+    background-color: rgba(127, 255, 212, 1);
+    margin: 15px auto 0px;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.login-item {
+    background-color: rgba(255, 182, 193, 1);
+}
