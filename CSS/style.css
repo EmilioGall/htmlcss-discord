@@ -8,11 +8,19 @@
 
 /* COMMON */
 
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
 .container {
     width: 75%;
     margin: 0px auto;
+}
+
+.flex-container {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .padding-small{
@@ -23,48 +31,97 @@
     padding: 30px 0px;
 }
 
-.bar {
+.text-rem-10 {
+    font-size: 1rem;
+}
+
+.text-rem-15 {
+    font-size: 1.5rem;
+}
+
+.text-rem-20 {
+    font-size: 2rem;
+}
+
+.text-rem-25 {
+    font-size: 2.5rem;
+}
+
+.text-rem-30 {
+    font-size: 3rem;
+}
+
+.white-text {
+    color: rgba(255, 255, 255, 1);
+}
+
+.tag {
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+/* Debug */
+/* .bar {
     border: 2px dashed black;
     padding: 10px;
-}
+} */
 
 /* HEADER */
 
 header {
-
-    /* Debug */
-    background-color: rgba(173, 216, 230, 1);
+    background-color: rgba(37, 94, 233, 1);
+    display: flex;
+    align-items: center;
 }
 
-.logo {
+.logo-header {
     width: 25%;
-    background-color: rgba(218, 165, 32, 1);
+    display: flex;
+    align-items: center;
+    /* Debug */
+    border: 1px solid white;
+}
+
+.nav-space {
+    min-width: 450px;
+    width: 50%;
+    text-align: center;
+    /* Debug */
+    border: 1px solid white;
 }
 
 .nav {
-    width: 50%;
-    text-align: center;
-    background-color: rgba(218, 165, 32, 1);
+    justify-content: space-around;
 }
 
-.login {
+.header-link {
+    list-style: none;
+    text-decoration: none;
+}
+
+.login-space {
     width: 25%;
     text-align: end;
-    background-color: rgba(218, 165, 32, 1);
+    /* Debug */
+    border: 1px solid white;
+}
+
+.login-header {
+    background-color: rgba(255, 255, 255, 1);
 }
 
 /* MAIN */
 
-/* Banner Section */
+/* Hero Section */
 
-.banner {
+.hero {
     padding: 40px;
     background-color: rgba(0, 0, 139, 1);
     display: flex;
     justify-content: center;
 }
 
-.banner-content {
+.hero-content {
     width: 60%;
     background-color: rgba(238, 130, 238, 1);
 
