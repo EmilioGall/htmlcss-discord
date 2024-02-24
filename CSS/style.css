@@ -257,11 +257,17 @@ footer {
 }
 
 .links-cols {
-    flex-grow: 1;
+    justify-content: space-between;
+    /* width: 25%; */
+    /* flex-grow: 1; */
 
     /* Debug */
     /* min-height: 300px;
     border: 1px solid white; */
+}
+
+.menu-col {
+    padding: 10px 0px 0px 50px;
 }
 
 .flag-img {
@@ -273,12 +279,6 @@ footer {
     height: 1rem;
     vertical-align: middle;
     margin: 0px 5px;
-}
-
-.link-cols .colored-text {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
 }
 
 menu li {
