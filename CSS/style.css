@@ -92,12 +92,20 @@ body {
     color: rgba(114, 137, 218, 1);
 }
 
+.colored-wave {
+    filter: invert(100%) sepia(83%) saturate(736%) hue-rotate(243deg) brightness(121%) contrast(93%);
+}
+
+.v-flip {
+    transform: rotateX(180deg);
+}
+
 .white-bg {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #ffffff;
 }
 
 .grey-bg {
-    background-color: rgba(246, 246, 246, 1);
+    background-color: #f6f6f6;
 }
 
 .dark-bg {
