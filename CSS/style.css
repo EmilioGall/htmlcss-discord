@@ -26,6 +26,12 @@ body {
     margin: 0 auto;
 }
 
+.big-container {
+    min-width: 770px;
+    width: 80%;
+    margin: 0 auto;
+}
+
 .flex-container {
     display: flex;
 }
@@ -54,6 +60,10 @@ body {
     padding: 30px 0px;
 }
 
+.text-rem-5 {
+    font-size: 0.7rem;
+}
+
 .text-rem-10 {
     font-size: 0.9rem;
 }
@@ -64,10 +74,6 @@ body {
 
 .text-rem-20 {
     font-size: 1.6rem;
-}
-
-.text-rem-25 {
-    font-size: 2.3rem;
 }
 
 .text-rem-30 {
@@ -239,31 +245,50 @@ footer {
 /* Menu Section */
 
 .menu {
-    padding: 10px 0px 30px;
+    padding: 80px 0px 5px;
 }
 
-.salmon {
-    background-color: rgba(240, 128, 128, 1);
-    flex-grow: 2;
-    border-color: white;
+.socials-col {
+    width: 25%;
 
     /* Debug */
-    height: 300px;
+    min-height: 300px;
+    border: 1px solid white;
 }
 
-.seagreen {
-    background-color: rgba(32, 178, 170, 1);
+.links-cols {
     flex-grow: 1;
-    border-color: white;
 
     /* Debug */
-    height: 300px;
+    min-height: 300px;
+    border: 1px solid white;
+}
+
+.flag-img {
+    height: 1rem;
+    vertical-align: middle;
+}
+
+.social-icon {
+    height: 1rem;
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+
+.link-cols .colored-text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+menu li {
+    padding: 0px 10px 20px;
 }
 
 /* SignUp Section */
 
-.white-line {
-    color: white;
+.colored-line {
+    color: rgba(114, 137, 218, 1);
 }
 
 .login-menu {
